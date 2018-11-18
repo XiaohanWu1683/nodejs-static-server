@@ -2,21 +2,23 @@
 Node.JS static web server
 ## What is this
 
+This is a static web server using Node.js
+
 ## How to use it
 ### 1.install
 ```
-npm install -g anydoor
+npm install -g shawn-static-server
 ```
 
 ### 2.instructions
 
 ```
-anydoor #set current directory as root of static server
+ss-server #set current directory as root of static server
 
-anydoor -p 8080 #set port number for server
+ss-server -p 8080 #set port number for server
 
-anydoor -h localhost # set host as localhost
+ss-server -h localhost # set host as localhost
 
-anydoor -d /usr # set root directory as /usr
+ss-server -d /usr # set root directory as /usr
 
 ```
