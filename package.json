@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-static-server",
+  "version": "0.1.1",
+  "description": "Node.JS static web server",
+  "main": "src/app.js",
+  "bin": {
+      "anydoor": "bin/anydoor"
+  },
+  "scripts": {
+      "lint": "eslint .",
+      "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+        "fix",
+        "lint"
+    ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaohanWu1683/nodejs-static-server.git"
+  },
+  "author": "Shawn Wu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XiaohanWu1683/nodejs-static-server/issues"
+  },
+  "homepage": "https://github.com/XiaohanWu1683/nodejs-static-server#readme",
+  "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "eslint": "^4.5.0",
+        "pre-commit": "^1.2.2"
+    },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.12",
+    "yargs": "^12.0.4"
+  }
+}
