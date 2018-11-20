@@ -7,7 +7,7 @@ This is a static web server using Node.js
 ## How to use it
 ### 1.install
 ```
-npm install -g shawn-static-server
+npm install -g shawn-static-server 
 ```
 
 ### 2.instructions
